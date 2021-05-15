@@ -1,0 +1,62 @@
+body{
+    text-align: center; }
+   
+   #survey-form {
+     width: 900px;
+     margin: 0 auto;
+    }
+   .row-tab {
+     display: block;
+     padding-top: 20px;
+    
+    }
+   
+   .label-burger {
+     display: inline-block;
+     width: 40%;
+     text-align: center;
+    }
+   .input-burger {
+     display: inline-black;
+     text-align: left;
+     width: 48%
+    }
+   .select-input {
+     display: inline-black;
+     text-align: center;
+   }
+   .label-select {
+     display: inline-block;
+     width: 40%;
+    }
+   
+   .input-burger {
+     display: inline-block;
+     text-align:left;
+     width: 48%;
+    }
+   .labels-radio {
+    display: inline-block;
+     width: 40%;
+     text-align: rigth;
+    }
+   .input-radio {
+    display: inline;
+    text-align: rigth;
+    width: 48%
+    }
+   .checkbox-labels {
+    display: inline;
+    width: 40%;
+    }
+   .checkbox-input {
+    display: inline;
+    text-align: left;
+    width: 48%
+    }
+   h1 {
+     background-color: #00ced1;
+   }
+    
+    
+   

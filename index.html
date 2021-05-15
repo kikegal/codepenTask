@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="tittle">
+        <h1>Ajude a melhorar o Turismo</h1>
+        </div>
+        <p id="description"><h2>Deixe sua avaliação aqui</h2></P>
+        
+        <form id='survey-form'>
+          <div class="row-tab">
+            <div class="label-burger">
+          <div id="name"><label id="name-label">Nome:</label>
+              </div></div>
+          <div class="input-burger">
+            <input type="text" id="txtnome">
+          </div>
+          </div>
+          <div class="row-tab">
+          <div class="label-burger">
+          <label>Data de nascimento:</label>
+          </div>
+          <div class="input-burger">
+            <input type="number" placeholder="dd/mm/aaaa" id="birth">
+          </div>
+          </div>
+        <div class="row-tab">
+          <div class="label-burger">
+          <label>Origem:</label>
+        </div>
+          <div class="input-burger">
+            <input type="text" placeholder="Cidade" id="origem">
+          </div>
+        </div>
+        <div class="row-tab">
+          <div class="label-burger">
+          <div id="email"><label id="email-label">Email:</label>
+            </div></div>
+          <div class="input-burger">
+            <input type="email" placeholder="email" id="email">
+          </div>
+        </div>
+        </form>
+        <div class="row-tab">
+         <div class="labels-select">
+           <label><h2>Motivo da hospedagem</h2></label>
+        </div>
+        <div class="select-input" id="dropdown">
+        <select>
+        <option value="volvo">Turismo</option>
+        <option value="volvo">Trabalho</option>
+        </select>
+         </div>
+        <div class="row-tab">
+        <div class="labels-radio">
+            Meio de Transporte:
+        </div>
+         <div class="input-radio">
+          <label>Carro
+          <input type="radio" name="transp" id="transp"></input>
+          </label>
+         </div>
+          <label>Avião
+          <input type="radio" name="transp" id="transp"></input>
+          </label>
+         <div class="row-tab">
+         <div class="checkbox-labels">
+           <label>Quer receber informação? </label>
+           <label>Sim
+            <input type="radio" name="info" checked id="infocheck"></input>
+            </label>
+            <label>Não
+              <input type="radio" name="info" id="infocheck"></input>
+              </label>
+         </div>
+        </div><br>
+        <label id="number-label"> Avalie a cidade do 0 até 10</label>
+        <input type="number" id="numbervalue">
+        <div class="row-tab">
+          <textarea id="txtml">Escreva aqui uma opinião</textarea>
+          </div>
+          <div class="row-tab">
+          <input class="button" type="submit" id="buttom" onclick="verificar()">
+          </div>
+        </form>
+    
+</body>
+</html>
